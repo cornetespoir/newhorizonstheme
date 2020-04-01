@@ -1,0 +1,102 @@
+        
+        
+        .flex {
+            display:flex;
+            flex-wrap:wrap;
+        }
+        .centered {
+            align-items:center;
+            justify-content:center;
+            align-content:center
+        }
+
+     .updates {
+        width:calc((100% - 620px) / 2);
+         min-height:100vh;
+         position:fixed;
+         align-content:center;
+         align-items:center!important;
+         top:20px;
+         left:-40%;
+         transition:.6s;
+         opacity:0;
+         
+     }
+     
+     .updates.open {
+         top:20px;
+         left:20px;
+         opacity:1;
+     }
+     
+     .sidebar p {
+         width:100%;
+         text-align:center;
+         width:90%;
+         padding:0;
+         margin:10px 0;
+     }
+     
+     .sidebar p:last-of-type {
+         padding-bottom:10px;
+     }
+        
+        
+          .sidebar {
+         width:calc(90% - 20px);
+         border-radius:60px;
+         height:50vh;
+         padding:20px 0 60px 0;
+         justify-content:center;
+         align-items:flex-start!important;
+     }
+
+     .top {
+         margin:10px 0;
+         opacity:.42;
+         width:100%;
+         justify-content:space-around;
+         align-items:center;
+     }
+        
+        .sidebar .link {
+           width:calc(30% - 40px);
+            margin:2px 6px;
+            border-radius:20px;
+            font-size:1.44em;
+            padding:16px 10px;
+                  color:#434132;
+        }
+       
+.link:hover {
+    transition:.6s;
+    box-shadow:0 0 0 4px rgba(0,0,0,.068);
+}
+#phone {
+     border-radius:100%;
+     z-index:999;
+     transition:.6s;
+     width:70px;
+     height:70px;
+     cursor:pointer;
+     position:fixed;
+     top:20px;
+     left:30px;
+ }
+
+#phone:hover {
+    transition:.6s;
+    transform:rotate(-10deg);
+}
+
+#phone.open {
+      transform:rotate(-10deg);
+}
+#phone svg {
+    width:36px;
+  cursor:pointer;
+    overflow:visible;
+   
+}
+
+.cls-1{fill:#fff;}.cls-2{fill:#8d97f8;}.cls-3{fill:#2d2a55;}.cls-4{fill:#bfaf71;}.cls-5{fill:#453700;}.cls-6,.cls-7{fill:none;stroke-miterlimit:10;}.cls-6{stroke:#e2e2e2;stroke-width:0.75px;}.cls-7{stroke:#fff;stroke-width:4px;}
